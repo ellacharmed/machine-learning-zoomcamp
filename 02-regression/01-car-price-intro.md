@@ -8,8 +8,7 @@
 
 ## Notes
 
-This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this 
-kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
+This project is about the creation of a model for helping users to predict car prices. The dataset was obtained from [this kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 
 **Project plan:**
 
