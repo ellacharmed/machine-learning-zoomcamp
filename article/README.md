@@ -1,22 +1,16 @@
-## 13. Article
+# 13. Article
 
 The best way to learn about something - to teach it.
 
-In this part of the course, we'll explore some topics that weren't 
-covered in the course.
+In this part of the course, we'll explore some topics that weren't covered in the course.
 
-You'll need to learn about this topic and then write about what
-you learned in an article. (Of course if you already know something
-and just want to share your knowledge with us - it's also fine
-and more than welcome.)
+You'll need to learn about this topic and then write about what you learned in an article. (Of course if you already know something and just want to share your knowledge with us - it's also fine and more than welcome.)
 
-
-
-### ML Zoomcamp 2022
+## ML Zoomcamp 2022
 
 See [here](../cohorts/2022/article.md)
 
-### ML Zoomcamp 2021
+## ML Zoomcamp 2021
 
 The articles from the 2021 cohort students:
 
