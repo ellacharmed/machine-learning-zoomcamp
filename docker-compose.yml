@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  mlzoomcamp:
+    entrypoint: /bin/bash -c
+    command: ${CMD:-bash}
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    build:
+      context: docker
+      dockerfile: dockerfile
+    image: ai2ys/ml-zoomcamp:0.0.0
+    environment:
+      PORT_JNB:
+    ports:
+      - "${PORT_JNB}:${PORT_JNB}"
+    expose:
+      - "${PORT_JNB}"
+    hostname: mlzoomcamp
+    container_name: mlzoomcamp
+    tty: true
+    stdin_open: true
+
