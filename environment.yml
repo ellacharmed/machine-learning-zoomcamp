@@ -13,11 +13,23 @@ dependencies:
   - kaggle
   - scikit-learn==1.3.1
   - scikit-learn-intelex
-  - matplotlib==3.7
+  - matplotlib>=3.7.3,<3.8  # 3.8 requires seaborn>=0.13
   - seaborn
   - plotly
   - regex
   - tqdm
   - nbformat
-  - ydata-profiling
-
+  - ydata-profiling # requires seaborn <0.13
+  # week-4 module-evaluation
+  - tqdm
+  # week-5 module-deployment
+  - flask
+  - waitress
+  # - gunicorn 
+  - requests
+  # week-6 module-decision trees
+  - xgboost
+  # midterms / capstone
+  - imbalanced-learn
+  - localstack
+  - awscli-local
