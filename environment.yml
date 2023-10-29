@@ -17,11 +17,14 @@ dependencies:
   - seaborn
   - plotly
   - regex
-  - tqdm
   - nbformat
   - ydata-profiling # requires seaborn <0.13
   # week-4 module-evaluation
   - tqdm
+  - beautifulsoup4 # leaderboard
+  - lxml # leaderboard
+  - xlrd # leaderboard
+  - openpyxl # leaderboard
   # week-5 module-deployment
   - flask
   - waitress
@@ -33,3 +36,6 @@ dependencies:
   - imbalanced-learn
   - localstack
   - awscli-local
+  - catboost
+  - lightgbm
+  
