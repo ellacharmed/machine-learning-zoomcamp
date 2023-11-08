@@ -29,7 +29,7 @@ For a project, you repository/folder should contain the following:
 * Data
   * You should either commit the dataset you used or have clear instructions how to download the dataset
 * Notebook (suggested name - `notebook.ipynb`) with
-  * Data preparation and data clearning
+  * Data preparation and data cleaning
   * EDA, feature importance analysis
   * Model selection process and parameter tuning
 * Script `train.py` (suggested name)
