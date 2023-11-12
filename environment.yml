@@ -1,7 +1,7 @@
 # Micromamba environment file
 # https://marketplace.visualstudio.com/items?itemName=corker.vscode-micromamba
 
-name: zoomcamp
+name: py310
 channels:
   - conda-forge
 dependencies:
@@ -21,14 +21,14 @@ dependencies:
   - ydata-profiling # requires seaborn <0.13
   # week-4 module-evaluation
   - tqdm
-  - beautifulsoup4 # leaderboard
-  - lxml # leaderboard
-  - xlrd # leaderboard
-  - openpyxl # leaderboard
+  - beautifulsoup4            # leaderboard
+  - lxml                      # leaderboard
+  - xlrd                      # leaderboard
+  - openpyxl                  # leaderboard
   # week-5 module-deployment
   - flask
-  - waitress
-  # - gunicorn 
+  # - waitress                # windows only
+  - gunicorn 
   - requests
   # week-6 module-decision trees
   - xgboost
@@ -38,4 +38,16 @@ dependencies:
   - awscli-local
   - catboost
   - lightgbm
-  
+  # week-8 module-deep learning
+  - evidently
+  - pandas-datareader
+  - pillow
+  - h5py
+  - pyyaml
+  - boto3
+  - pip
+  - pip:
+    - 'tensorflow[and-cuda]'
+    - bayesian-optimization
+    - gym
+    - skimpy

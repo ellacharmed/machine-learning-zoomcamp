@@ -1,9 +1,10 @@
 *.h5
 .ipynb_checkpoints/
 __pycache__/
-/chapter-07-neural-nets/clothing-dataset-small/
-/chapter-09-kubernetes/clothing-model/
-/chapter-09-kubeflow/clothing-model/
+/08-deep-learning/clothing-dataset-small/
+/08-deep-learning/clothing-dataset/
+/09-serverless/clothing-model/
+/09-serverless/clothing-model/
 *.tflite
 data/
 cohorts/data/
