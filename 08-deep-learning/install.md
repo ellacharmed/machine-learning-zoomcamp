@@ -2,6 +2,11 @@
 
 date: 2023 Nov 12
 
+This installation guide is specific to the use case as in the pre-requisites. I'm not sure if it is similar for Mac/Linux native OSes or Other WSL2 Distros. Let me know either way if it does help.
+
+Also, welcome to edit and make corrections directly (via PRs) or let me know via Slack.
+
+
 ## pre-requisites
 - wsl2 on Windows 10 19044 or higher
 - Nvidia Pascal GPU, current driver 546.01
@@ -10,6 +15,7 @@ date: 2023 Nov 12
 - bash/zsh shell
 - cuda_12.3.0_545.84_windows.exe and cudnn-windows-x86_64-8.9.6.50_cuda12-archive.zip 
 - Nvidia CUDA Toolkit 12.3 on WSL2
+- Tensorflow v2.14 with cuda
 
 
 ## starting over or pre-install
@@ -135,6 +141,7 @@ Sun Nov 12 22:59:54 2023
 ## FAQs
 
 > **Issue**: `/sbin/ldconfig.real: /usr/lib/wsl/lib/libcuda.so.1 is not a symbolic link`
+> 
 > **Solution**: paste this `ldconfig = false` entry into `[automount]` section in your `%USERPROFILE%/.wslconfig` file. Open the file in `vs-code` or text editor like `notepad++`. Mine's at `"C:\Users\Ella\.wslconfig"`. I had a previous entry to cap my RAM usage in WSL2.
 > [source](https://github.com/microsoft/WSL/issues/5548#issuecomment-724674428)
 
@@ -149,6 +156,7 @@ ldconfig = false
 |=============================================================================|
 
 > **Issue**: warnings and info messages
+> 
 > **Solution**: surpress with 
 > [source](https://stackoverflow.com/questions/35911252/disable-tensorflow-debugging-information)
 
