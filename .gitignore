@@ -8,3 +8,4 @@ __pycache__/
 *.tflite
 data/
 cohorts/data/
+**midterms_evaluations/
