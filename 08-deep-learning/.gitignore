@@ -7,7 +7,6 @@ __pycache__/
 *.h5
 *.tflite
 *.zip
-*.pdf
 
 # data folders
 data/
